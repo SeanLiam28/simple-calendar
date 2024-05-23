@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url("https://images.pexels.com/photos/1324803/pexels-photo-1324803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+/* CALENDAR STYLE */
+
+.calendar-container {
+  background-color: white;
+  width: 330px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+
+}
+
+.month-name {
+  margin: 0;
+  background-color: rgb(54, 0, 250);
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.day-name {
+  font-size: 30px;
+  color: darkgray;
+}
+
+.day-number {
+  font-size: 100px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.year {
+  margin: 20px 0;
+  font-size: 30px;
+  color: darkgray;
+  font-weight: 500;
+}
+
+/* CLOCK STYLE */
+
+
+
+.clock {
+  display: flex;
+  
+}
+.container{
+  border-radius: 1opx;
+}
+
+.clock div {
+  margin-top: 5px;
+  margin-right: 7px;
+  position: relative;
+  
+}
+.clock span {
+  width: 100px;
+  height: 80px;
+  background: slateblue;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text {
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: rgb(54, 0, 250);
+  opacity: 0.8;
+}
+
+.clock #ampm {
+  bottom: 0;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background: green;
+}
+
